@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Test</name>
+  <coder>Peter Sieg</coder>
+  <version>1.0</version>
+  <release_date>09/19/2024</release_date>
+  <short_description>Test program</short_description> 
+  <long_description>Test program</long_description> 
+  <ahb_access/>
+</app>
