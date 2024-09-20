@@ -13,7 +13,7 @@ Pre requisit: To get the Xcode command line tools run `xcode-select --install` f
 
 Use the pkg installer to install devkitPro pacman (dkp-pacman) - see: https://devkitpro.org/wiki/Getting_Started
 
-In terminal: sudo dkp-pacman -S wii-dev to install the tools and libraries you wish to develop for. 
+In terminal: sudo dkp-pacman -S wii-dev to install the tools and libraries you wish to develop for (will be installed to /opt/devkitpro/*). 
 
 Groups currently available are :-
 
