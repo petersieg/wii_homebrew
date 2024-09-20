@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>C4 Game</name>
+  <coder>Peter Sieg</coder>
+  <version>1.0</version>
+  <release_date>09/19/2024</release_date>
+  <short_description>Connect 4 game</short_description> 
+  <long_description>Connect 4 game</long_description> 
+  <ahb_access/>
+</app>
