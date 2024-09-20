@@ -34,6 +34,7 @@ mv application hello
 
 make hello
 
+'''
 ich@iMac-von-ich hello % ls -l
 total 3600
 -rw-r--r--  1 ich  staff     5617 18 Jan  2024 Makefile
@@ -41,6 +42,7 @@ drwxr-xr-x  5 ich  staff      160 20 Sep 17:47 build
 -rw-r--r--  1 ich  staff   291904 20 Sep 17:47 hello.dol
 -rwxr-xr-x  1 ich  staff  1536600 20 Sep 17:47 hello.elf
 drwxr-xr-x  3 ich  staff       96 18 Sep 21:10 source
+'''
 
 mv hello.dol boot.dol
 
