@@ -4,6 +4,7 @@ Some simple and small homebrew apps
 All need USB keyboard attached to wii!
 
 * hello - hello world with getchar/scanf input
+* collatz - calc collatz sequence. A stop; B cont.
 * reverse - reverse the numbers to get 1..9
 * reversi - reversi/othello game
 
