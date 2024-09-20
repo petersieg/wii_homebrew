@@ -4,9 +4,10 @@ Some simple and small homebrew apps
 All need USB keyboard attached to wii!
 
 * hello - hello world with getchar/scanf input
-* collatz - calc collatz sequence. A stop; B cont.
-* reverse - reverse the numbers to get 1..9
-* reversi - reversi/othello game
+* c4 - Connect 4 (Is not correctly detecting winner)
+* collatz - calc collatz sequence. A stop; B cont. (See: https://en.wikipedia.org/wiki/Collatz_conjecture)
+* reverse - reverse the numbers to get 1..9 (Adapted from: https://www.rosettacode.org/wiki/Number_reversal_game)
+* reversi - reversi/othello game (https://dev.to/iigura/reversiothello-game-program-which-you-can-choose-the-first-or-the-second-in-7-lines-code-of-c-3799)
 
 Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
 
