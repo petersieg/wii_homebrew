@@ -62,3 +62,29 @@ Use dkp-pacman to:
 * To install a package use `sudo dkp-pacman -S <name of package>`
 * `sudo dkp-pacman -R <name of package>` will remove an already installed package.
   
+Examples:
+
+* sudo dkp-pacman -S wii-sdl - to install sdl(1)
+* sudo dkp-pacman -S wii-opengx - that seems to be required now by SDL!
+
+---
+These wii devkit libs are available as of 09/2024:
+```
+dkp-libs wii-cmake 1.0.0-2 [installed]
+dkp-libs wii-examples 20240118-1 [installed]
+dkp-libs wii-freeglut 3.6.0-4
+dkp-libs wii-glu 9.0.3-1
+dkp-libs wii-opengx 0.9.0-1 [installed]
+dkp-libs wii-physfs 3.2.0-3
+dkp-libs wii-pkg-config 0.28-5 [installed]
+dkp-libs wii-sdl 1.2.15-16 [installed]
+dkp-libs wii-sdl2 2.28.5-13
+dkp-libs wii-sdl2_gfx 1.0.4-3
+dkp-libs wii-sdl2_image 2.0.4-2
+dkp-libs wii-sdl2_mixer 2.6.3-1
+dkp-libs wii-sdl2_ttf 2.22.0-2
+dkp-libs wii-sdl_gfx 2.0.27-1
+dkp-libs wii-sdl_image 1.2.12-5
+dkp-libs wii-sdl_mixer 1.2.12-10
+dkp-libs wii-sdl_ttf 2.0.11-5
+```
