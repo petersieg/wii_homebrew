@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <app version="1.01">
+    <name>Fire</name>
+    <coder>David Ashley</coder>
+    <version>1.01</version>
+    <release_date>24 Septempber 2010</release_date>
+    <short_description>Fire simulation</short_description>
+    <long_description>Just a simple SDL demo, simulates fireworks, sort of.</long_description>
+  </app>
