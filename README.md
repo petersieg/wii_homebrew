@@ -10,6 +10,7 @@ All need USB keyboard attached to wii!
 * reversi - reversi/othello game (https://dev.to/iigura/reversiothello-game-program-which-you-can-choose-the-first-or-the-second-in-7-lines-code-of-c-3799)
 * wii_fire - Fireworks demo for SDL(1). Author: Dashxdr. GPL. Just Makefile updated to compile. See: Source and https://wiibrew.org/wiki/Fire
 * f030 - Old + simple SDL demo from Atari Falcon 030 experiments compiled for wii
+* pong - Simple SDL Pong game using USB keyboard!
   
 Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
 
