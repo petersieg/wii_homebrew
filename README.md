@@ -8,9 +8,9 @@ All need USB keyboard attached to wii!
 * collatz - calc collatz sequence. A stop; B cont. (See: https://en.wikipedia.org/wiki/Collatz_conjecture)
 * reverse - reverse the numbers to get 1..9 (Adapted from: https://www.rosettacode.org/wiki/Number_reversal_game)
 * reversi - reversi/othello game (https://dev.to/iigura/reversiothello-game-program-which-you-can-choose-the-first-or-the-second-in-7-lines-code-of-c-3799)
-
 * wii_fire - Fireworks demo for SDL(1). Author: Dashxdr. GPL. Just Makefile updated to compile. See: Source and https://wiibrew.org/wiki/Fire
-
+* f030 - Old + simple SDL demo from Atari Falcon 030 experiments compiled for wii
+  
 Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
 
 Pre requisit: To get the Xcode command line tools run `xcode-select --install` from Terminal.
