@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>SDLDemo</name>
+  <coder>Peter Sieg</coder>
+  <version>0.2</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>Simple SDL Demo</short_description> 
+  <long_description>Simple SDL Demo (C) 2021 P. Sieg CC-BY-SA</long_description> 
+  <ahb_access/>
+</app>
