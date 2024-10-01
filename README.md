@@ -11,6 +11,7 @@ All need USB keyboard attached to wii!
 * wii_fire - Fireworks demo for SDL(1). Author: Dashxdr. GPL. Just Makefile updated to compile. See: Source and https://wiibrew.org/wiki/Fire
 * f030 - Old + simple SDL demo from Atari Falcon 030 experiments compiled for wii
 * pong - Simple SDL Pong game using USB keyboard!
+* pong2 - Simple SDL Pong game using Wiimote (A; Up/Dn/+/-; HOME) - not perfect; need something like autorepeat buttons
   
 Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
 
