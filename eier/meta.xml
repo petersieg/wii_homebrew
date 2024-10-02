@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Eier</name>
+  <coder>Patrick Gerdsmeier</coder>
+  <version>0.1</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>Sarah-Maries Eierjagd</short_description> 
+  <long_description>Copyright (c) 2005 Patrick Gerdsmeier (patrick@gerdsmeier.net) GPL2 - Wii port: Peter Sieg 10/2024</long_description> 
+  <ahb_access/>
+</app>
