@@ -65,6 +65,15 @@ Place hello folder on sd card under apps folder; start homebrew channel and your
 Fire (use -/+ to change color):
 ![fire](screens/fire.jpeg)
 
+Pong:
+![pong](screens/pong.jpeg)
+
+Eier:
+![eier](screens/eier.jpeg)
+
+Invaders:
+![invaders](screens/invaders.jpeg)
+
 ---
 
 Use dkp-pacman to:
