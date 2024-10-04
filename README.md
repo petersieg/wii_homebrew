@@ -61,7 +61,7 @@ supply png icon file and meta.xml file accordingly to your liking.
 Place hello folder on sd card under apps folder; start homebrew channel and your hello should appear to be started.
 ---
 Fire (use -/+ to change color):
-![Bild]([[https://github.com/petersieg/wii_homebrew/blob/main/screens/fire.jpeg])
+![Bild]([https://github.com/petersieg/wii_homebrew/blob/main/screens/fire.jpeg)
 
 ---
 
