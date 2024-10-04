@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Invaders</name>
+  <coder>J lambert</coder>
+  <version>0.1</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>Invaders Coded by J lambert- USB Kbd!</short_description> 
+  <long_description>Invaders Coded by J lambert https://github.com/flightcrank/space-invaders - Ported to wii by P. Sieg 10/2024 - USB Kbd!</long_description> 
+  <ahb_access/>
+</app>
