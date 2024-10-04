@@ -5,6 +5,6 @@
   <version>0.1</version>
   <release_date>09/30/2024</release_date>
   <short_description>Simple Pong Game - Wiimote</short_description> 
-  <long_description>Simple Pong Game - Wiimote</long_description> 
+  <long_description>Simple Pong Game - Wiimote - Maybe coming from: https://github.com/flightcrank/pong</long_description> 
   <ahb_access/>
 </app>
