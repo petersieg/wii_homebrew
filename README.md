@@ -12,7 +12,7 @@ All need USB keyboard attached to wii!
 * f030 - Old + simple SDL demo from Atari Falcon 030 experiments compiled for wii
 * pong - Simple SDL Pong game using USB keyboard!
 * pong2 - Simple SDL Pong game using Wiimote (A; Up/Dn/+/-; HOME) - not perfect; need something like autorepeat buttons
-* eier - Catch golden+colored eggs, avoid bad/brown eggs. Copyright (c) 2005 Patrick Gerdsmeier (patrick@gerdsmeier.net) GPL2 - Wii port: Peter Sieg 10/2024 with small changes to make it easier. Neeeds sdl_image to compile and USB keyboard.
+* eier - Catch golden+colored eggs, avoid bad/brown eggs. Copyright (c) 2005 Patrick Gerdsmeier (patrick@gerdsmeier.net) GPL2 - Wii port: Peter Sieg 10/2024 with small changes to make it easier. Needs sdl_image to compile and USB keyboard.
 * invaders - Space Invaders from: https://github.com/flightcrank/space-invaders
 
 (Pong is maybe coming from: https://github.com/flightcrank/pong)
