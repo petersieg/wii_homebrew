@@ -76,6 +76,12 @@ Eier:
 Invaders:
 ![invaders](screens/invaders.jpeg)
 
+Asteroids:
+![asteroids](screens/asteroids.jpeg)
+
+Breakout:
+![breakout](screens/breakout.jpeg)
+
 ---
 
 Use dkp-pacman to:
