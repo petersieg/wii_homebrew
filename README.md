@@ -14,7 +14,8 @@ All need USB keyboard attached to wii!
 * pong2 - Simple SDL Pong game using Wiimote (A; Up/Dn/+/-; HOME) - not perfect; need something like autorepeat buttons
 * eier - Catch golden+colored eggs, avoid bad/brown eggs. Copyright (c) 2005 Patrick Gerdsmeier (patrick@gerdsmeier.net) GPL2 - Wii port: Peter Sieg 10/2024 with small changes to make it easier. Needs sdl_image to compile and USB keyboard.
 * invaders - Space Invaders from: https://github.com/flightcrank/space-invaders
-* asteroids - From: https://github.com/flightcrank/asteroids - GPL2 - Did not allow/hit last asteroid?
+* asteroids - From: https://github.com/flightcrank/asteroids - GPL2 - Did not allow/hit last asteroid? Unfinished game play.
+* breakout - From: https://github.com/uncleBlobby/breakout-c - No live lost code. Unfinished game play.
 
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
