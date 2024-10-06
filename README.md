@@ -1,5 +1,5 @@
 # wii_homebrew
-Some simple and small homebrew apps. Some sources are from other authors. If someone from the original authos wants some changes/alterrations or remove their code, please let me know.
+Some simple and small homebrew apps. Some sources are from other authors. If someone from the original authors wants some changes/alterations or remove their code, please let me know.
 
 All need USB keyboard attached to wii!
 
