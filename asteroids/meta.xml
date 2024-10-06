@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>asteroids</name>
+  <coder>flightcrank</coder>
+  <version>0.1</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>asteroids - USB Kbd!</short_description> 
+  <long_description>asteroids - USB Kbd! - GPL2 - Coming from: https://github.com/flightcrank/asteroids</long_description> 
+  <ahb_access/>
+</app>
