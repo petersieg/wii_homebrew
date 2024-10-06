@@ -1,7 +1,7 @@
 # wii_homebrew
 Some simple and small homebrew apps. Some sources are from other authors. If someone from the original authors wants some changes/alterations or remove their code, please let me know.
 
-All need USB keyboard attached to wii!
+Most need USB keyboard attached to wii!
 
 * hello - hello world with getchar/scanf input
 * c4 - Connect 4 (Is not correctly detecting winner)
