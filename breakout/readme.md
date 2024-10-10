@@ -1,6 +1,8 @@
 # BREAKOUT.C
 ***
 
+Source: https://github.com/uncleBlobby/breakout-c
+
 Quick implementation of classic ["Breakout" style brick-breaking game, developed in 1976 by Atari](https://en.wikipedia.org/wiki/Breakout_(video_game)), using [C language](https://en.wikipedia.org/wiki/C_(programming_language)) and [SDL2](https://www.libsdl.org/).  Intended as a project to help develop further understanding of rudimentary C syntax and the SDL2 library for rendering simple graphics to the screen. This implementation uses [GNU Make 4.3](https://www.gnu.org/software/make/) and [GCC 12.1.1](https://gcc.gnu.org/).
 
 The current project is about 280 lines of code and produces an executable 26 KB in size.
