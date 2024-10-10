@@ -1,5 +1,15 @@
 # SPACE INVADERS
 
+Author: flightcrank
+
+Source: https://github.com/flightcrank/
+```
+Answer for which license the source is:
+They (pong/invaders/sdl demos) are unlicensed.
+They are simple applications and were used just to learn SDL.
+Feel free to use or modify the code in anyway you see fit.
+```
+
 This is a recreation of the classic space invaders video game. Loosly based on the AtariST version by
 Robert HC Leong(1990)
 
