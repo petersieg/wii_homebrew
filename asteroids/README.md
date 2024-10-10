@@ -16,7 +16,7 @@ available to you operating systems PATH environment variable
 * space to shoot a bullet
 * ESC to exit game
   
-## Licence GPL2 - see LICENSE
+Licence GPL2 - see file LICENSE
 
 ## Images
 ![animation](https://i.imgur.com/sV164D6.gif)
