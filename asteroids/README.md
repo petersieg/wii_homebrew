@@ -15,6 +15,8 @@ available to you operating systems PATH environment variable
 * up arrow to apply thrust in the direction you are pointing
 * space to shoot a bullet
 * ESC to exit game
+  
+## Licence GPL2 - see LICENSE
 
 ## Images
 ![animation](https://i.imgur.com/sV164D6.gif)
