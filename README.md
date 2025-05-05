@@ -1,5 +1,9 @@
 # wii_homebrew
-Some simple and small homebrew apps. Some sources are from other authors. If someone from the original authors wants some changes/alterations or remove their code, please let me know.
+Some simple and small homebrew apps. Create "apps" folder on SD card and place these folders inside. Connect a USB keyboard to Wii.
+
+Zum Installieren von HomeBrew dieser Anleitung folgen - To install homebrew follow this guide: https://de.wikihow.com/Homebrew-auf-einer-Wii-mit-Men%C3%BC-4.3-installieren
+
+Some sources are from other authors. If someone from the original authors wants some changes/alterations or remove their code, please let me know.
 
 Most need USB keyboard attached to wii!
 
