@@ -7,7 +7,7 @@ https://de.wikihow.com/Homebrew-auf-einer-Wii-mit-Men%C3%BC-4.3-installieren
 
 Some sources are from other authors. If someone from the original authors wants some changes/alterations or remove their code, please let me know.
 
-Most need USB keyboard attached to wii!
+Most need USB keyboard attached to Wii!
 
 * hello - hello world with getchar/scanf input
 * c4 - Connect 4 (Is not correctly detecting winner)
