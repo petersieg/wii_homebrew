@@ -1,6 +1,8 @@
 
 # ASTEROIDS
 
+From: https://github.com/flightcrank/asteroids - GPL2 - Did not allow/hit last asteroid? Unfinished game play.
+
 This is a recreation of the classic asteroids video game. Implemented in the C
 programming language, using SDL 2 library to display graphics on the screen.
 
