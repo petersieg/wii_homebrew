@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>sdltest</name>
+  <coder>P. Sieg</coder>
+  <version>0.1</version>
+  <release_date>05/21/2025</release_date>
+  <short_description>sdltest - USB Kbd!</short_description> 
+  <long_description>Just shows a bmp image. Press ESC - GPL2.
+  Image is rendered by c-ray from example hdr.json:
+  https://github.com/vkoskiv/c-ray</long_description> 
+  <ahb_access/>
+</app>
