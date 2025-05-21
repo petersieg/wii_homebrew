@@ -1,1 +1,1 @@
-## Simple sdl2 test example. Just shows bmp image.
+### Simple sdl2 test example. Just shows bmp image.
