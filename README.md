@@ -23,7 +23,7 @@ Most need USB keyboard attached to Wii!
 * asteroids - From: https://github.com/flightcrank/asteroids - GPL2 - Did not allow/hit last asteroid? Unfinished game play.
 * breakout - From: https://github.com/uncleBlobby/breakout-c - No live lost code. Unfinished game play.
 * See also: https://github.com/petersieg/wii-bhspitmonkey - need wiisprite lib!
-* 
+  
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
 Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
