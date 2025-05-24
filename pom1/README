@@ -13,6 +13,7 @@ line parameters.
 Option         Letter    Parameter             Description
 --------------------------------------------------------------------------------------------
 Load Memory    L                               Load memory from a binary or ascii file.
+                                               (Wii: sd:/apps/pom1/type/"filename.ext")
 Save Memory    S                               Save memory to a binary or ascii file.
 Quit           Q                               Quit the emulator.
 Reset          R                               Soft reset the emulator.
