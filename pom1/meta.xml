@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>POM1 - Apple 1 Emulator</name>
+  <coder>V.Arnaud/JD.Corrado</coder>
+  <version>0.1</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>Must use USB Kbd!</short_description> 
+  <long_description>
+  Found at: https://github.com/anarkavre/pom1
+  Copyright (C) 2000 Verhille Arnaud.
+  Copyright (C) 2012 John D. Corrado (jdcorrado@gmail.com)
+  Quick hack to make it run on Wii: P. Sieg 2025
+  </long_description> 
+  <ahb_access/>
+</app>
