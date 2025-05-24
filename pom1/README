@@ -1,3 +1,5 @@
+Quick hack to compile with devkitpro for Wii in May 2025 by P.Sieg
+
 Pom1 is an Apple 1 emulator being ported to C from the original Java 
 version. It uses the Simple DirectMedia Layer library and works on most 
 platforms.
