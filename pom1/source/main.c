@@ -31,8 +31,11 @@
 int main(int argc, char *argv[])
 {
 	int i, temp;
+#ifdef LOCAL
+	char *romdir = "./roms"; /*getenv("POM1ROMDIR");*/
+#else
 	char *romdir = "sd:/apps/pom1/roms"; /*getenv("POM1ROMDIR");*/
-
+#endif
 	atexit(freeRomDirectory);
 
 	if (romdir)
