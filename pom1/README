@@ -1,5 +1,7 @@
 Quick hack to compile with devkitpro for Wii in May 2025 by P.Sieg
 E000R starts apple 1 basic; CALL -256 gets you back into wozmon monitor.
+If you want to return to the Basic interpreter without losing anything 
+you can do that by typing E2B3R in the Woz monitor. 
 
 Pom1 is an Apple 1 emulator being ported to C from the original Java 
 version. It uses the Simple DirectMedia Layer library and works on most 
