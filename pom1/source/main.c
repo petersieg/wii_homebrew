@@ -42,7 +42,8 @@ int main(int argc, char *argv[])
 		setRomDirectory(romdir);
 	else
 		setRomDirectory("roms");
-/*
+
+#ifdef LOCAL
 	loadConfiguration();
 
 	atexit(saveConfiguration);
@@ -57,6 +58,15 @@ int main(int argc, char *argv[])
 			{
 				temp = atoi(argv[i + 1]);
 
+#ifdef LOCAL
+				if (temp >= 1 && temp <= 8)
+				{
+					if (temp == 1)
+						setScanlines(0);
+
+					setPixelSize(temp);
+				}
+#else
 				if (temp == 1 || temp == 2)
 				{
 					if (temp == 1)
@@ -64,6 +74,7 @@ int main(int argc, char *argv[])
 
 					setPixelSize(temp);
 				}
+#endif
 			}
 			else if (!strcasecmp("-scanlines", argv[i]))
 				if (getPixelSize() > 1)
@@ -87,7 +98,7 @@ int main(int argc, char *argv[])
 				setBlockCursor(1);
 		}
 	}
-*/
+#endif
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		fprintf(stderr, "stderr: Could not initialize SDL\n");
