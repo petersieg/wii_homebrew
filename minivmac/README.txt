@@ -5,7 +5,7 @@ and additional (bootable) disk image file named: diskN.dsk. N=1..4
 
 make = makes wii minivmac.elf and minivmac.dol. cp minivmac.dol boot.dol. Uses build dir.
 make -f Makefile.org = makes MacOS/Linux minivmac (-DLOCAL). Uses bld dir.
-make -f Makefile.mingw64 = makes Windows minivmax.exe. Uses bld dir. Untested after wii dev.
+make -f Makefile.mingw64 = makes Windows minivmax.exe (-DLOCAL). Uses bld dir. Untested after wii dev.
 
 Found at: https://github.com/vanfanel/minivmac_sdl2
     
