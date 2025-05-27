@@ -3,6 +3,10 @@ Port to Wii in May 2025 by P.Sieg.
 Due to Copyright reasons, you have to supply your own copy of vMac.ROM
 and additional (bootable) disk image file named: diskN.dsk. N=1..4
 
+make = makes wii minivmac.elf and minivmac.dol. cp minivmac.dol boot.dol. Uses build dir.
+make -f Makefile.org = makes MacOS/Linux minivmac (-DLOCAL). Uses bld dir.
+make -f Makefile.mingw64 = makes Windows minivmax.exe. Uses bld dir. Untested after wii dev.
+
 Found at: https://github.com/vanfanel/minivmac_sdl2
     
 Copyright (C) 2009 Bernd Schmidt, Philip Cummins, Paul C. Pratt
