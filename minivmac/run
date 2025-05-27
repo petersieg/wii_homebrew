@@ -1,0 +1,4 @@
+#/bin/sh
+cd /Users/ich/minivmac/minivmac_sdl2
+./minivmac
+
