@@ -1,3 +1,8 @@
+## HIGHLY WIP!!
+### Just a quick hack to make it compile with devkitpro/wii-dev and run under wii
+
+Complete untested! Use at your own risk!
+
 Brandy 1.20.1 + [brandy-osx-sdl-support.patch](http://sourceforge.net/p/brandy/patches/9/)
 --------------------------------------------
 
