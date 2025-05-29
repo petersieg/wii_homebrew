@@ -49,6 +49,7 @@ typedef double float64;			/* Type for 64-bit floating point variables in Basic *
 ** coded here. This is the most important macro and is used to control
 ** the compilation of OS-specific parts of the program.
 */
+/** */
 #define TARGET_LINUX
 #define BRANDY_OS "Linux"
 

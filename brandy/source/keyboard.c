@@ -43,6 +43,7 @@
 #include "keyboard.h"
 #include "screen.h"
 
+/** USE_SDL */
 #ifdef USE_SDL
 #include "SDL.h"
 
