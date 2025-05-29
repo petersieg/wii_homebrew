@@ -4,6 +4,7 @@
 ### Completely untested! Use at your own risk!
 
 make builds the wii executable brandy.dol (mv brandy.dol boot.dol)
+
 make -f Makefile.org builds on macosx
 
 
