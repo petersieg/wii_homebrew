@@ -3,6 +3,9 @@
 
 ### Completely untested! Use at your own risk!
 
+make builds the wii executable brandy.dol (mv brandy.dol boot.dol)
+make -f Makefile.org builds on macosx
+
 
 Brandy 1.20.1 + [brandy-osx-sdl-support.patch](http://sourceforge.net/p/brandy/patches/9/)
 --------------------------------------------
