@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>brandy</name>
+  <coder>David Daniels</coder>
+  <version>0.1</version>
+  <release_date>05/29/2025</release_date>
+  <short_description>brandy Basic Interpreter - USB Kbd!</short_description> 
+  <long_description>
+Found at: 
+https://github.com/peterhellberg/brandy/tree/master
+Copyright (C) 2000, 2001, 2002, 2003, 2004 David Daniels.
+The program is distributed under the terms of the GNU GPL.
+Quick hack for Wii May 2025 P.Sieg
+</long_description> 
+  <ahb_access/>
+</app>
