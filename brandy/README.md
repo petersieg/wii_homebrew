@@ -1,7 +1,7 @@
 ## HIGHLY Work In Progress - WIP!!
-### Just a quick hack to make it compile with devkitpro/wii-dev and run under wii
+### Just a quick hack (find: /** ) to make it compile with devkitpro/wii-dev
 
-### Completely untested! Use at your own risk!
+### Mostly untested! Use at your own risk!
 
 make builds the wii executable brandy.dol (mv brandy.dol boot.dol)
 
