@@ -11,9 +11,12 @@ Usage
 -----
 
 Wii port of Vecx.
+
 Until I have any game selector,
 please copy:
+
 from rom dir name.bin to rom.bin
+
 from overlay dir name.bmp to overlay.bmp
 
 Authors
@@ -26,5 +29,5 @@ Authors
 Contributors
 -------
 * [Simon Rodriguez](https://twitter.com/simonkosua) - SDL2 port
-
+* P. Sieg - Wii port (since other wii port has no audio)
 
