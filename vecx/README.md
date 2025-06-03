@@ -6,6 +6,9 @@ Requirements
 * `libsdl`
 * `sdl_gfx`
 
+make within source dir makes macos/pc app (-DLOCAL).
+make within main dir makes wii app.
+
 Wii port of Vecx.
 Until I have any game selector,
 please copy:
