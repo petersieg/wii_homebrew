@@ -10,14 +10,13 @@ Requirements
 Usage
 -----
 
-Wii port of Vecx.
+* Wii port of Vecx. Must use USB keyboard!
+* Buttons: asdf and cursor keys
 
-Until I have any game selector,
-please copy:
-
-from rom dir name.bin to rom.bin
-
-from overlay dir name.bmp to overlay.bmp
+* Until I have any game selector,
+* please copy:
+* from rom dir name.bin to rom.bin
+* from overlay dir name.bmp to overlay.bmp
 
 Authors
 -------
