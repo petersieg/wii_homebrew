@@ -6,7 +6,9 @@
 	<release_date></release_date>
 	<short_description>Vectrex Emulator</short_description>
 	<long_description>
-Wii port of Vecx.
+Wii port of Vecx. Must use USB keyboard!
+Buttons: asdf and cursor keys
+
 Until I have any game selector,
 please copy:
 from rom dir name.bin to rom.bin
