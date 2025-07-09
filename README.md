@@ -71,6 +71,17 @@ Place hello folder on sd card under apps folder; start homebrew channel and your
 
 ---
 
+
+Wem eine Wii Sensorleiste fehlt: https://www.youtube.com/watch?v=f7uKSUT9pH4
+
+Heute auf einem Steckbrett ausprobiert und funktioniert prima! Leds von hier: https://www.ebay.de/itm/175773023902
+
+PS: Die Bezeichnung "Sensorleiste" ist mind, irreführend. Ist eigentlich ja nur eine zweifache Infrarotquelle mit ca. 15-20cm Abstand.
+
+![wii-diy](wii-sensor-diy.jpeg)
+
+---
+
 Fire (use -/+ to change color):
 ![fire](screens/fire.jpeg)
 
