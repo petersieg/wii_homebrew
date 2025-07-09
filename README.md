@@ -74,7 +74,7 @@ Place hello folder on sd card under apps folder; start homebrew channel and your
 
 Wem eine Wii Sensorleiste fehlt: https://www.youtube.com/watch?v=f7uKSUT9pH4
 
-Heute auf einem Steckbrett ausprobiert und funktioniert prima! Leds von hier: https://www.ebay.de/itm/175773023902
+Heute auf einem Steckbrett ausprobiert und funktioniert prima! 4x IR Leds in Reihe mit ca. 20-30 Ohm Widerstand an +5V. Leds von hier: https://www.ebay.de/itm/175773023902
 
 PS: Die Bezeichnung "Sensorleiste" ist mind, irreführend. Ist eigentlich ja nur eine zweifache Infrarotquelle mit ca. 15-20cm Abstand.
 
