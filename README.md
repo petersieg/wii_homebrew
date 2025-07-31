@@ -23,6 +23,10 @@ Most need USB keyboard attached to Wii!
 * asteroids - From: https://github.com/flightcrank/asteroids - GPL2 - Did not allow/hit last asteroid? Unfinished game play.
 * breakout - From: https://github.com/uncleBlobby/breakout-c - No live lost code. Unfinished game play.
 * See also: https://github.com/petersieg/wii-bhspitmonkey - need wiisprite lib!
+* brandy - grafic basic interpreter using sdl
+* pom1 - apple 1 emulator using sdl
+* minivmac - classic mac emulator using sdl2 - you need to supply rom and boot image(s).
+* vecx - vectrex emulator with sound using sdl2
   
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
@@ -76,7 +80,7 @@ Wem eine Wii Sensorleiste fehlt: https://www.youtube.com/watch?v=f7uKSUT9pH4
 
 Heute auf einem Steckbrett ausprobiert und funktioniert prima! 4x IR Leds in Reihe mit ca. 20-30 Ohm Widerstand an +5V. Leds von hier: https://www.ebay.de/itm/175773023902
 
-PS: Die Bezeichnung "Sensorleiste" ist mind, irreführend. Ist eigentlich ja nur eine zweifache Infrarotquelle mit ca. 15-20cm Abstand.
+PS: Die Bezeichnung "Sensorleiste" ist mind, irreführend. Ist eigentlich ja nur eine zweifache Infrarotquelle mit ca. 20cm Abstand.
 
 ![wii-diy](wii-sensor-diy.jpeg)
 
