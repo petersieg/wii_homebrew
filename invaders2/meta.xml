@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>Space Invaders</name>
+  <coder>PFelix and Georg Potthast</coder>
+  <version>0.1</version>
+  <release_date>2008-2013</release_date>
+  <short_description>Space Invaders</short_description> 
+  <long_description>
+  SDL Space Invaders game by Felix and Georg Potthast.
+  https://sourceforge.net/projects/sdlspaceinvader/
+  GNU Library or Lesser General Public License version 2.0 
+  </long_description> 
+  <ahb_access/>
+</app>
