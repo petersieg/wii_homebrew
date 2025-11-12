@@ -117,7 +117,7 @@ void pressanykey()
 	
 	while (done==0)
 	{
-		//#ifndef wiisupport
+		#ifndef wiisupport
         SDL_PollEvent(&event);  
 		switch (event.type)
 		{
@@ -139,7 +139,7 @@ void pressanykey()
 					    break;
 				} //switch sym
 		} //switch event.type
-        //#endif
+        #endif
 	
         #ifdef wiisupport
         Uint32 p_key; 
