@@ -27,6 +27,7 @@ Most need USB keyboard attached to Wii!
 * pom1 - apple 1 emulator using sdl
 * minivmac - classic mac emulator using sdl2 - you need to supply rom and boot image(s).
 * vecx - vectrex emulator with sound using sdl2
+* zx81 - Simple ZX81 emulator using SDL1 - See: https://leiradel.github.io/2011/06/11/How-to-Emulate.html - GPL
   
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
