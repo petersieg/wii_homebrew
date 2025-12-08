@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>ZX81</name>
+  <coder>Andre Leiradella</coder>
+  <version>0.1</version>
+  <release_date>11/06/2011</release_date>
+  <short_description>Simple SDL ZX81</short_description> 
+  <long_description>Source found at:
+  https://leiradel.github.io/2011/06/11/How-to-Emulate.html
+  and
+  https://github.com/optixx/zx81-emulator
+  Released under GPL
+  Ported to Wii by P. Sieg in Dec. 2025</long_description> 
+  <ahb_access/>
+</app>
