@@ -6,12 +6,18 @@
 /* address of the pointer to the beginning of the display file */
 #define D_FILE 0x400c
 
+/* Memory Size */
+#define MEMSIZE 65535
+
+#define MEM_NAME "memory.img"
+FILE *fptr;
+
 /* the z80 state */
 static struct z80 z80;
 
 /* the keyboard state and the memory */
 static BYTE keyboard[ 9 ];
-static BYTE memory[ 65536 ];
+static BYTE memory[ MEMSIZE ];
 
 /* array to covert SDLK_* constants to row/col zx81 keyboard bits */
 static BYTE sdlk2scan[ SDLK_LAST ];
@@ -259,6 +265,18 @@ static void run_some( void )
   }
 }
 
+void save_mem()
+{
+	fptr = fopen(MEM_NAME,"wb");  // w for write, b for binary
+	fwrite(memory,MEMSIZE,1,fptr);
+}
+
+void rest_mem()
+{
+	fptr = fopen(MEM_NAME,"rb");  // r for read, b for binary
+	fread(memory,MEMSIZE,1,fptr);
+}
+
 static int consume_events( void )
 {
   /* the event to process the window manager events */
@@ -273,6 +291,9 @@ static int consume_events( void )
     {
     case SDL_KEYDOWN:
       /* key pressed, reset the corresponding bit in the keyboard state */
+      if ( event.key.keysym.sym == SDLK_ESCAPE ) return 0;
+      if ( event.key.keysym.sym == SDLK_F5 ) save_mem();
+      if ( event.key.keysym.sym == SDLK_F7 ) rest_mem();
       if ( event.key.keysym.sym == SDLK_BACKSPACE )
       {
         keyboard[ 0 ] &= ~1;
