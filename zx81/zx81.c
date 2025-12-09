@@ -269,12 +269,14 @@ void save_mem()
 {
 	fptr = fopen(MEM_NAME,"wb");  // w for write, b for binary
 	fwrite(memory,MEMSIZE,1,fptr);
+	fclose(fptr);
 }
 
 void rest_mem()
 {
 	fptr = fopen(MEM_NAME,"rb");  // r for read, b for binary
 	fread(memory,MEMSIZE,1,fptr);
+	fclose(fptr);
 }
 
 static int consume_events( void )
