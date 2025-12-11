@@ -8,7 +8,7 @@ Simple save (F6) and restore (F7) complete 64k memory to/from file memory.img
 
 Simple save (F8) and restore (F9) 16k memory chunk to/from file nnn.16k
 
-(nnn = value at memory location 16507; so POKE 16507,4, will save to/read from 4.16k)
+(nnn = value at memory location 16507; so POKE 16507,4, will save to/read from file: 4.16k)
 
 ESC exits.
 
