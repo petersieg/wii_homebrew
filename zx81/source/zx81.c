@@ -10,6 +10,7 @@
 #define MEMSIZE 65535
 
 #define MEM_NAME "memory.img"
+char k16_NAME[8] = "000.16k";
 FILE *fptr;
 
 /* the z80 state */
@@ -192,6 +193,9 @@ static void setup_emulation( void )
   memory[ 0x02b5 + 0x0000 ] = 0xc9;
   memory[ 0x02b5 + 0x2000 ] = 0xc9;
   
+  /* zero unnused 0x407b - used for p file name*/
+  memory[ 0x407b ] = 0;
+  
   /* setup the registers */
   z80.pc  = 0;
   z80.iff = 0;
@@ -268,15 +272,46 @@ static void run_some( void )
 void save_mem()
 {
 	fptr = fopen(MEM_NAME,"wb");  // w for write, b for binary
-	fwrite(memory,MEMSIZE,1,fptr);
-	fclose(fptr);
+	if (fptr != NULL) {
+		fwrite(memory,MEMSIZE,1,fptr);
+		fclose(fptr);
+	}
 }
 
 void rest_mem()
 {
 	fptr = fopen(MEM_NAME,"rb");  // r for read, b for binary
-	fread(memory,MEMSIZE,1,fptr);
-	fclose(fptr);
+	if (fptr != NULL) {
+		fread(memory,MEMSIZE,1,fptr);
+		fclose(fptr);
+	}
+}
+
+void save_16k()
+{
+	unsigned int size;
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make p file name 000-255.p */
+	fptr = fopen(k16_NAME,"wb");  // w for write, b for binary
+	if (fptr != NULL) {
+		size = 0x4000; //memory[0x4014] - 0x4009; // get basic program size
+		fwrite(memory+0x4009,size,1,fptr);
+		fclose(fptr);
+	}
+}
+
+void load_16k()
+{
+	unsigned int size;
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make p file name 000-255.p */
+	fptr = fopen(k16_NAME,"rb");  // r for read, b for binary
+	if (fptr != NULL) {
+		size = 0x4000; /*
+		fseek(fptr, 0, SEEK_END); // seek to end of file
+		size = ftell(fptr); // get current file pointer
+		fseek(fptr, 0, SEEK_SET); // seek back to beginning of file */
+		fread(memory+0x4009,size,1,fptr);
+		fclose(fptr);
+	}
 }
 
 static int consume_events( void )
@@ -294,7 +329,9 @@ static int consume_events( void )
     case SDL_KEYDOWN:
       /* key pressed, reset the corresponding bit in the keyboard state */
       if ( event.key.keysym.sym == SDLK_ESCAPE ) return 0;
-      if ( event.key.keysym.sym == SDLK_F5 ) save_mem();
+      if ( event.key.keysym.sym == SDLK_F8 ) save_16k();
+      if ( event.key.keysym.sym == SDLK_F9 ) load_16k();
+      if ( event.key.keysym.sym == SDLK_F6 ) save_mem();
       if ( event.key.keysym.sym == SDLK_F7 ) rest_mem();
       if ( event.key.keysym.sym == SDLK_BACKSPACE )
       {
