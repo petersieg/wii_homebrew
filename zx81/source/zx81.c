@@ -278,7 +278,7 @@ void save_mem()
 	}
 }
 
-void rest_mem()
+void load_mem()
 {
 	fptr = fopen(MEM_NAME,"rb");  // r for read, b for binary
 	if (fptr != NULL) {
@@ -290,7 +290,7 @@ void rest_mem()
 void save_16k()
 {
 	unsigned int size;
-	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make p file name 000-255.p */
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make 16k file name 0-255.16k */
 	fptr = fopen(k16_NAME,"wb");  // w for write, b for binary
 	if (fptr != NULL) {
 		size = 0x4000; //memory[0x4014] - 0x4009; // get basic program size
@@ -302,7 +302,7 @@ void save_16k()
 void load_16k()
 {
 	unsigned int size;
-	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make p file name 000-255.p */
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make 16k file name 0-255.16k */
 	fptr = fopen(k16_NAME,"rb");  // r for read, b for binary
 	if (fptr != NULL) {
 		size = 0x4000; /*
@@ -332,7 +332,7 @@ static int consume_events( void )
       if ( event.key.keysym.sym == SDLK_F8 ) save_16k();
       if ( event.key.keysym.sym == SDLK_F9 ) load_16k();
       if ( event.key.keysym.sym == SDLK_F6 ) save_mem();
-      if ( event.key.keysym.sym == SDLK_F7 ) rest_mem();
+      if ( event.key.keysym.sym == SDLK_F7 ) load_mem();
       if ( event.key.keysym.sym == SDLK_BACKSPACE )
       {
         keyboard[ 0 ] &= ~1;
