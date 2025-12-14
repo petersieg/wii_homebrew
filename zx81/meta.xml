@@ -10,6 +10,13 @@
   and
   https://github.com/optixx/zx81-emulator
   Released under GPL
-  Ported to Wii by P. Sieg in Dec. 2025</long_description> 
+  Ported to Wii by P. Sieg in Dec. 2025
+  ESC = Exit
+  F6 = save_mem();
+  F7 = load_mem();
+  F8 = save_16k();
+  F9 = load_16k();
+
+  </long_description> 
   <ahb_access/>
 </app>
