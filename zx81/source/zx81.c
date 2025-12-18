@@ -289,27 +289,20 @@ void load_mem()
 
 void save_16k()
 {
-	unsigned int size;
-	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make 16k file name 0-255.16k */
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* 0x407b=16507 make 16k file name 0-255.16k */
 	fptr = fopen(k16_NAME,"wb");  // w for write, b for binary
 	if (fptr != NULL) {
-		size = 0x4000; //memory[0x4014] - 0x4009; // get basic program size
-		fwrite(memory+0x4009,size,1,fptr);
+		fwrite(memory+0x4009,0x4000,1,fptr);
 		fclose(fptr);
 	}
 }
 
 void load_16k()
 {
-	unsigned int size;
-	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* make 16k file name 0-255.16k */
+	sprintf(k16_NAME,"%d.16k",memory[0x407b]); /* 0x407b=16507 make 16k file name 0-255.16k */
 	fptr = fopen(k16_NAME,"rb");  // r for read, b for binary
 	if (fptr != NULL) {
-		size = 0x4000; /*
-		fseek(fptr, 0, SEEK_END); // seek to end of file
-		size = ftell(fptr); // get current file pointer
-		fseek(fptr, 0, SEEK_SET); // seek back to beginning of file */
-		fread(memory+0x4009,size,1,fptr);
+		fread(memory+0x4009,0x4000,1,fptr);
 		fclose(fptr);
 	}
 }
