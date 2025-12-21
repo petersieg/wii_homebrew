@@ -193,6 +193,10 @@ static void setup_emulation( void )
   memory[ 0x02b5 + 0x0000 ] = 0xc9;
   memory[ 0x02b5 + 0x2000 ] = 0xc9;
   
+  /* patch SCROLL to a return, since it doesn't work correctly here */
+  memory[ 0x0c0e + 0x0000 ] = 0xc9;
+  memory[ 0x0c0e + 0x2000 ] = 0xc9;
+  
   /* zero unnused 0x407b - used for p file name*/
   memory[ 0x407b ] = 0;
   
