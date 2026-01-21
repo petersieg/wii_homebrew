@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="0.1">
+  <name>lisp</name>
+  <coder>Justin Meiners</coder>
+  <version>0.1wip</version>
+  <release_date>2025</release_date>
+  <short_description>Lisp Interpreter in C</short_description> 
+  <long_description>
+  Adapted from: https://github.com/justinmeiners/lisp-interpreter
+  USB Kbd is required!</long_description> 
+  <ahb_access/>
+</app>

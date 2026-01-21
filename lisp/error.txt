@@ -1,0 +1,111 @@
+toms-Air:lisp tom$ make
+template.c
+In file included from /Users/tom/wii/apps/lisp/source/lisp.h:348,
+                 from /Users/tom/wii/apps/lisp/source/template.c:15:
+/Users/tom/wii/apps/lisp/source/lisp.h: In function 'lex_skip_empty_':
+/Users/tom/wii/apps/lisp/source/lisp.h:1565:34: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1565 |         while (f != l && isspace(*f)) ++f;
+      |                                  ^~
+/Users/tom/wii/apps/lisp/source/lisp.h: In function 'match_char_':
+/Users/tom/wii/apps/lisp/source/lisp.h:1583:17: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1583 |     if (isalnum(*f)) {
+      |                 ^~
+/Users/tom/wii/apps/lisp/source/lisp.h:1585:34: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1585 |         while (f != l && isalnum(*f)) ++f;
+      |                                  ^~
+/Users/tom/wii/apps/lisp/source/lisp.h:1587:24: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1587 |     } else if (isprint(*f)) {
+      |                        ^~
+/Users/tom/wii/apps/lisp/source/lisp.h: In function 'match_number_':
+/Users/tom/wii/apps/lisp/source/lisp.h:1600:28: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1600 |     if (f == l || !isdigit(*f)) return NULL;
+      |                            ^~
+/Users/tom/wii/apps/lisp/source/lisp.h:1602:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1602 |     while (f != l && isdigit(*f)) ++f;
+      |                              ^~
+/Users/tom/wii/apps/lisp/source/lisp.h:1610:30: warning: array subscript has type 'char' [-Wchar-subscripts]
+ 1610 |     while (f != l && isdigit(*f)) ++f;
+      |                              ^~
+/Users/tom/wii/apps/lisp/source/lisp.h: In function 'parse_list_r':
+/Users/tom/wii/apps/lisp/source/lisp.h:1915:41: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 1915 |             fprintf(ctx.p->err_port, "%lu. expected closing )\n", lexerposition_(lex));
+      |                                       ~~^                         ~~~~~~~~~~~~~~~~~~~
+      |                                         |                         |
+      |                                         long unsigned int         size_t {aka unsigned int}
+      |                                       %u
+/Users/tom/wii/apps/lisp/source/lisp.h:1918:41: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 1918 |             fprintf(ctx.p->err_port, "%lu. unexpected .\n", lexer_positon_(lex));
+      |                                       ~~^                   ~~~~~~~~~~~~~~~~~~~
+      |                                         |                   |
+      |                                         long unsigned int   size_t {aka unsigned int}
+      |                                       %u
+/Users/tom/wii/apps/lisp/source/lisp.h:1937:49: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 1937 |                     fprintf(ctx.p->err_port, "%lu. unexpected .\n", lexr_position_(lex));
+      |                                               ~~^                   ~~~~~~~~~~~~~~~~~~~
+      |                                                 |                   |
+      |                                                 long unsigned int   size_t {aka unsigned int}
+      |                                               %u
+/Users/tom/wii/apps/lisp/source/lisp.h:1956:45: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 1956 |                 fprintf(ctx.p->err_port, "%lu. expected closing )\n", lxer_position_(lex));
+      |                                           ~~^                         ~~~~~~~~~~~~~~~~~~~
+      |                                             |                         |
+      |                                             long unsigned int         size_t {aka unsigned int}
+      |                                           %u
+/Users/tom/wii/apps/lisp/source/lisp.h:2012:45: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 2012 |                 fprintf(ctx.p->err_port, "%lu. unknown character\n", leer_position_(lex));
+      |                                           ~~^                        ~~~~~~~~~~~~~~~~~~~
+      |                                             |                        |
+      |                                             long unsigned int        size_t {aka unsigned int}
+      |                                           %u
+/Users/tom/wii/apps/lisp/source/lisp.h: In function 'lisp_print_collect_stats':
+/Users/tom/wii/apps/lisp/source/lisp.h:3110:19: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3110 |         printf("%lu/%lu ", page->size, page->capacity);
+      |                 ~~^        ~~~~~~~~~~
+      |                   |            |
+      |                   |            size_t {aka unsigned int}
+      |                   long unsigned int
+      |                 %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3110:23: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3110 |         printf("%lu/%lu ", page->size, page->capacity);
+      |                     ~~^                ~~~~~~~~~~~~~~
+      |                       |                    |
+      |                       long unsigned int    size_t {aka unsigned int}
+      |                     %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3113:49: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3113 |     fprintf(ctx.p->err_port, "\ngc collected: %lu\t time: %lu us\n", ct.p->gc_stat_freed, ctx.p->gc_stat_time);
+      |                                               ~~^                    ~~~~~~~~~~~~~~~~~~~
+      |                                                 |                         |
+      |                                                 long unsigned int         size_t {aka unsigned int}
+      |                                               %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3113:61: warning: format '%lu' expects argument of type 'long unsigned int', but argument 4 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3113 |     fprintf(ctx.p->err_port, "\ngc collected: %lu\t time: %lu us\n", ctx.p->gc_stat_freed, ctx.p->gc_stat_time);
+      |                                                           ~~^                              ~~~~~~~~~~~~~~~~~~~
+      |                                                             |                                   |
+      |                                                             long unsigned int                   size_t {aka unsigned int}
+      |                                                           %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3114:44: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3114 |     fprintf(ctx.p->err_port, "heap size: %lu\t pages: %lu\n", ctx.p->hep.size, ctx.p->heap.page_count);
+      |                                          ~~^                  ~~~~~~~~~~~~~~~
+      |                                            |                             |
+      |                                            long unsigned int             size_t {aka unsigned int}
+      |                                          %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3114:57: warning: format '%lu' expects argument of type 'long unsigned int', but argument 4 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+ 3114 |     fprintf(ctx.p->err_port, "heap size: %lu\t pages: %lu\n", ctx.p->heap.size, ctx.p->heap.page_count);
+      |                                                       ~~^                       ~~~~~~~~~~~~~~~~~~~~~~
+      |                                                         |                                  |
+      |                                                         long unsigned int                  size_t {aka unsigned int}
+      |                                                       %u
+/Users/tom/wii/apps/lisp/source/lisp.h:3115:42: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'unsigned int' [-Wformat=]
+ 3115 |     fprintf(ctx.p->err_port, "symbols: %lu \n", (size_t)lisp_table_sizectx.p->symbols));
+      |                                        ~~^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                          |      |
+      |                                          |      unsigned int
+      |                                          long unsigned int
+      |                                        %u
+/Users/tom/wii/apps/lisp/source/template.c: In function 'main':
+/Users/tom/wii/apps/lisp/source/template.c:86:17: warning: variable 'file_path' set but not used [-Wunused-but-set-variable]
+   86 |     const char* file_path = NULL;
+      |                 ^~~~~~~~~
+linking ... lisp.elf
+output ... lisp.dol
+
