@@ -28,6 +28,7 @@ Most need USB keyboard attached to Wii!
 * minivmac - classic mac emulator using sdl2 - you need to supply rom and boot image(s).
 * vecx - vectrex emulator with sound using sdl2
 * zx81 - Simple ZX81 emulator using SDL1 - See: https://leiradel.github.io/2011/06/11/How-to-Emulate.html - GPL
+* banks_sdl2 - Carl Banks flightsim from IOCCC 1998; deobfuscated; converted to sdl2.
   
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
