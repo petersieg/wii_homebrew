@@ -12,6 +12,7 @@ Most need USB keyboard attached to Wii!
 * hello - hello world with getchar/scanf input
 * c4 - Connect 4 (Is not correctly detecting winner)
 * collatz - calc collatz sequence. A stop; B cont. (See: https://en.wikipedia.org/wiki/Collatz_conjecture)
+* donut - rotating donut. HOME=Exit
 * reverse - reverse the numbers to get 1..9 (Adapted from: https://www.rosettacode.org/wiki/Number_reversal_game)
 * reversi - reversi/othello game (https://dev.to/iigura/reversiothello-game-program-which-you-can-choose-the-first-or-the-second-in-7-lines-code-of-c-3799)
 * wii_fire - Fireworks demo for SDL(1). Author: Dashxdr. GPL. Just Makefile updated to compile. See: Source and https://wiibrew.org/wiki/Fire
