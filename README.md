@@ -32,7 +32,7 @@ Most need USB keyboard attached to Wii!
   
 (Pong is maybe also coming from: https://github.com/flightcrank/pong)
 
-Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Ventura.
+Using devkitpro wii-dev under IMac 2010 27" none Metal GPU with OCLP Sonoma.
 
 Pre requisit: To get the Xcode command line tools run `xcode-select --install` from Terminal.
 
