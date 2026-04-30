@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>donut</name>
+  <coder>Peter Sieg</coder>
+  <version>1.0</version>
+  <release_date>04/30/2026</release_date>
+  <short_description>rotating donut</short_description> 
+  <long_description>rotating donut - HOME=Exit</long_description> 
+  <ahb_access/>
+</app>
