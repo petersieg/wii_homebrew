@@ -1,14 +1,16 @@
-# c_banks_flightsim
+c_banks_flightsim
 
 Modernization of Carl Bank's 1998 flightsim. See his blog here: https://blog.aerojockey.com/iocccsim/
 
-./compile.sh - compiles banks_sdl2_.c 
+Converted with ChatGPT from X11 to SDL2 in March 2026 by P.Sieg
 
-./run.sh - rund banks_sdl2_ with horizon.scene plus pittsburg.scene
+Converted to wii in Apri 2026 (replaced select with SDL_delay). make builds for wii with devkitpro.
+
+Does read scene file banks.sc instead of reading from stdin!
+
+./compile.sh - compiles banks_sdl2_.c for linux/mac
 
 TL;DR
-
-Converted with ChatGPT from X11 to SDL2 in March 2026 by P.Sieg
 
 ## Where this came from
 
