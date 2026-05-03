@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>test</name>
+  <coder>test</coder>
+  <version>0.1</version>
+  <release_date>09/30/2024</release_date>
+  <short_description>test</short_description> 
+  <long_description>test</long_description> 
+  <ahb_access/>
+</app>
