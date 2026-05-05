@@ -4,7 +4,7 @@ Modernization of Carl Bank's 1998 flightsim. See his blog here: https://blog.aer
 
 ./compile.sh - compiles banks_sdl2_.c for linux/macos.
 
-.banks_sdl2_ loads banks.sc (= horizon.scene plus pittsburg.scene)
+./banks_sdl2 - loads banks.sc (= horizon.scene plus pittsburg.scene)
 
 Converted with ChatGPT from X11 to SDL2 in March 2026 by P.Sieg
 
